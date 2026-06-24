@@ -1,9 +1,7 @@
-# [Project Title]
+# Day-Ahead Electricity Price Forecasting in Germany Using Load, Renewable, and Generation-Side Information
 
-![Notebook CI](https://github.com/<YOUR_GITHUB_USERNAME>/<YOUR_REPO_NAME>/actions/workflows/run-notebook.yml/badge.svg)
+![Notebook CI](https://github.com/rstanly001/dai-mission-group-I/actions/workflows/run-notebook.yml/badge.svg)
 
-> **Before submitting:** replace `<YOUR_GITHUB_USERNAME>/<YOUR_REPO_NAME>` in the badge URL above
-> with your actual GitHub owner and repository name.
 
 ---
 
@@ -11,17 +9,16 @@
 
 | Name | Role |
 |------|------|
-| Firstname Lastname | Lead / Causal Inference |
-| Firstname Lastname | Supervised Learning |
-| Firstname Lastname *(optional)* | Unsupervised / Generative |
+| Christy Johns | Lead / Unsupervised Learning |
+| Armaan Mistry | Supervised Learning |
+| Rohit Stanly | Causal Inference |
 
-> No student IDs in this file. Submit IDs separately via the course system (Moodle).
 
 ---
 
 ## Research Question
 
-*One sentence: what causal or predictive question are you answering, and with what data?*
+*Can German hourly day-ahead electricity prices be forecast more accurately by combining price history with day-ahead load forecasts, renewable generation forecasts, residual-load information, and generation-side controls?*
 
 ---
 
@@ -29,9 +26,9 @@
 
 | Block | Method(s) |
 |-------|-----------|
-| Causal Inference | DoWhy — [backdoor / IV / propensity score] |
+| Causal Inference | DoWhy — [backdoor] |
 | Supervised Learning | [e.g., Ridge regression, Random Forest, …] |
-| Unsupervised / Generative | [e.g., K-Means, VAE, Hierarchical clustering, …] |
+| Unsupervised Learning | [K-Means] |
 
 ---
 
@@ -39,11 +36,9 @@
 
 | Dataset | Source / URL | Access method |
 |---------|-------------|---------------|
-| | | local file / API / sklearn built-in / runtime download / Sciebo link |
+|german_electricity_market  |ENTSO-E transparency platform |local file|
 
-> **Data size rule:** files < 100 MB may be committed directly. Files ≥ 100 MB must either
-> be downloaded programmatically in the notebook (API/URL) or linked via a Sciebo share
-> placed in this README — do NOT push large files to GitHub.
+> **Data size rule:** files is less thab <100 mb.
 
 ---
 
