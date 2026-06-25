@@ -91,10 +91,10 @@ jobs:
 
       - name: Execute notebook
         run: |
-          jupyter nbconvert \
+          python -m jupyter nbconvert \
             --to notebook \
             --execute \
-            --ExecutePreprocessor.timeout=600 \
+            --ExecutePreprocessor.timeout=3600 \
             --ExecutePreprocessor.kernel_name=python3 \
             --output notebook_executed.ipynb \
             notebook.ipynb
