@@ -107,17 +107,17 @@ jupyter lab notebook.ipynb
 
 | Item | Status |
 |------|--------|
-| Repo named `dai-mission-group-X` (replace X with your group letter) | [ ] |
-| README updated (title, team, badge URL, research question, data sources) | [ ] |
-| Work Plan filled in (`notebook.ipynb` — team member → section mapping) | [ ] |
-| All rubric sections complete (§1–§5) | [ ] |
-| Notebook submitted in **fully executed state** (all cell outputs visible) | [ ] |
-| Notebook re-executes cleanly (CI badge green) | [ ] |
-| `presentation.pdf` replaced with actual PDF (PDF only, no PPTX) | [ ] |
-| Large data files (≥ 100 MB) not committed — downloaded or Sciebo-linked instead | [ ] |
-| Custom `.py` modules included (if any) | [ ] |
-| Private repo: `pnposch` + `kiraschoenhuette` added as collaborators | [ ] if private |
-| Repository link submitted to Moodle by **June 30, 12:00 noon** | [ ] |
+| Repo named `dai-mission-group-X` (replace X with your group letter) | done |
+| README updated (title, team, badge URL, research question, data sources) | done |
+| Work Plan filled in (`notebook.ipynb` — team member → section mapping) | done |
+| All rubric sections complete (§1–§5) | done |
+| Notebook submitted in **fully executed state** (all cell outputs visible) | done |
+| Notebook re-executes cleanly (CI badge green) | done |
+| `presentation.pdf` replaced with actual PDF (PDF only, no PPTX) | done |
+| Large data files (≥ 100 MB) not committed — downloaded or Sciebo-linked instead | done |
+| Custom `.py` modules included (if any) | NA |
+| Private repo: `pnposch` + `kiraschoenhuette` added as collaborators | NA |
+| Repository link submitted to Moodle by **June 30, 12:00 noon** | done |
 
 ---
 
